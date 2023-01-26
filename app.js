@@ -1,5 +1,3 @@
-console.log("JS07 Fetch API");
-
 const getUsers = (page = 1) => {
     const url = `https://reqres.in/api/users?delay=3${page}`;
 
